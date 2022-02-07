@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <title>Contact</title>
+
+    <style>
+        .presentation-contact{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        min-height: 80vh;
+        align-items:flex-start;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.gif" alt="logo" width="70px">
+            <h4 class="logo">Handzy</h4>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                 <li><a class="nav-link" href="index.html">Home</a></li>
+                 <li><a class="nav-link" href="about.html">About</a></li>
+                 <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+     
+    </header>
+ 
+    <main>
+        <section class="presentation-contact">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1 class="contact-us">Contact</h1>
+                    <h2 class="mail-to">
+                        <li><a class="mail-to-us" href="mailto:hello@handzy.co">hello@handzy.co</a></li>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="cover">
+                <img class="cover-contact" src="./img/PNG/06.png" alt="object">
+            </div>    
+        </section>
+
+        
+        <section class="contact-form" >
+            <form action="contact.html">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" value=""><br>
+                <label for="email">E-mail</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                <button type="submit">Submit</button>
+              </form> 
+        </section>  
+       
+    </main>
+    
+</body>
+</html>
